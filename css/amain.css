@@ -1,30 +1,101 @@
 /*footer*/
 .footer {
-    font-family: Josefin Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 30px;
-    align-items: center;
-    color: #878787;
-  }
-  /*footer*/
-  
-  /*navbar*/
-  .navbar {
-    font-family: Josefin Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    color: #000000;
-  }
-  /* navbar */
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  align-items: center;
+  color: #878787;
+}
+/*footer*/
+
+/*navbar*/
+.navbar {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+}
+/* navbar */
+
+/*gezilecek-yerler*/
+.jumbotron-billboard .img {
+  margin-bottom: 0px;
+  opacity: 0;
+  color: #fff;
+  font-style: italic;
+  background: #000 url("../image/digital.jpg") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.jumbotron h2 {
+  margin-top: 0;
+}
+.jumbotron {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.jumbotron .container {
+  position: relative;
+  z-index: 2;
+}
+
+/*card*/
+.card1 {
+  background: #2e009142;
+  font-family: "Prompt", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0px;
+  width: 100%;
+}
+
+.card-title {
+  font-family: Josefin Sans;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 64px;
+  margin-top: 20px;
+}
+/**/
+.baslik {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #2d0091;
+}
+.description {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #535353;
+}
