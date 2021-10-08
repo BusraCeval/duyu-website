@@ -1,0 +1,49 @@
+.footer {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    align-items: center;
+    color: #878787;
+  }
+  /*footer*/
+  
+  /*navbar*/
+  .navbar {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .hero {
+    background-image: url(../image/connection.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(92, 92, 92, 0.452);
+    z-index: -1;
+  }
+  /**/
