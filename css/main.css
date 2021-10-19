@@ -30,7 +30,6 @@
 /* navbar */
 
 /* giriş */
-
 .video-background-holder {
   position: relative;
   background-color: black;
@@ -88,7 +87,7 @@ code {
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 64px;
   align-items: center;
   text-align: center;
@@ -97,9 +96,9 @@ code {
 
 .duyu-description {
   font-family: Josefin Sans;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 30px;
+  font-style: bolder;
+  font-size: 30px;
+  line-height: 40px;
   align-items: center;
   text-align: center;
   color: #5b5b5b;
@@ -188,13 +187,20 @@ code {
   line-height: 80px;
   margin-top: 40px;
 }
-
-/* .btn1 {
-  background: rgba(255, 194, 79, 0.37);
-  border: 5px solid #ffa700;
-  border-radius: 20px;
-  font-size: 40px;
-  width: 180px;
-  height: 70px;
-} */
 /*demo*/
+
+/*problems*/
+.problem{
+  font-family: Josefin Sans;
+  font-size: 25px;
+  font-weight: normal;
+  color: #161616bd;
+  line-height: 35px;
+}
+.solving{
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #777777;
+}
+/*problems*/
