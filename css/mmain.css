@@ -13,9 +13,7 @@
 .navbar {
   font-family: Josefin Sans;
   font-style: normal;
-  font-weight: bold;
   font-size: 25px;
-  line-height: 30px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -26,8 +24,8 @@
   text-decoration: none;
   color: #fff;
 }
-.navbar-nav{
-  color: #fff;
+.navbar-toggler{
+  background: rgba(255, 255, 255, 0.527);
 }
 .hero {
   background-image: url(../image/endüstri.jpg);
@@ -45,7 +43,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(92, 92, 92, 0.452);
+  background-color: rgba(92, 92, 92, 0.644);
   z-index: -1;
 }
 
