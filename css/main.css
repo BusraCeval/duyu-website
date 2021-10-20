@@ -92,6 +92,25 @@ code {
   align-items: center;
   text-align: center;
   color: #2d0091;
+  position: relative;
+  animation: text 3s 1;
+}
+
+@keyframes text {
+  0% {
+    color: #2d0091;
+    margin-bottom: -40px;
+  }
+
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
 }
 
 .duyu-description {
@@ -173,7 +192,7 @@ code {
 .container1 {
   position: relative;
   max-width: 100%; /* Maximum width */
-  margin: 0 auto ;/* Center it */
+  margin: 0 auto; /* Center it */
   opacity: 0.9;
 }
 .centered {
@@ -190,14 +209,14 @@ code {
 /*demo*/
 
 /*problems*/
-.problem{
+.problem {
   font-family: Josefin Sans;
   font-size: 25px;
   font-weight: normal;
   color: #161616bd;
   line-height: 35px;
 }
-.solving{
+.solving {
   font-family: Josefin Sans;
   font-size: 18px;
   font-weight: lighter;

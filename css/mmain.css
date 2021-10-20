@@ -19,14 +19,16 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #000000;
+  color: #fff;
 }
 
 .nav-link {
   text-decoration: none;
-  color: #000000;
+  color: #fff;
 }
-
+.navbar-nav{
+  color: #fff;
+}
 .hero {
   background-image: url(../image/endüstri.jpg);
   background-position: center;
