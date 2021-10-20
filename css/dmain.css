@@ -13,18 +13,19 @@
 .navbar {
   font-family: Josefin Sans;
   font-style: normal;
-  font-weight: bold;
   font-size: 25px;
-  line-height: 30px;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #000000;
+}
+
+.navbar-toggler{
+  background: rgba(255, 255, 255, 0.24);
 }
 
 .nav-link {
   text-decoration: none;
-  color: #000000;
+  color: #fff;
 }
 
 .hero {
