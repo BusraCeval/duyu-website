@@ -15,12 +15,13 @@
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 30px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #000000;
+  background-color: #383838c5 ;
 }
 
 .nav-link {

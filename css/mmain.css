@@ -1,7 +1,8 @@
+/*footer*/
 .footer {
   font-family: Josefin Sans;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 22px;
   line-height: 30px;
   align-items: center;
@@ -13,20 +14,22 @@
 .navbar {
   font-family: Josefin Sans;
   font-style: normal;
-  font-size: 25px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: #000000;
+  background-color: #383838c5 ;
 }
 
 .nav-link {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
 }
-.navbar-toggler{
-  background: rgba(255, 255, 255, 0.24);
-}
+/* navbar */
+
 .hero {
   background-image: url(../image/endüstri.jpg);
   background-position: center;
