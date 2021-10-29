@@ -85,15 +85,16 @@ code {
 /*giriş*/
 #duyu{
   width:100%;
-  height:100vh;
 }
 .card svg {
-  width: 100%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   text-align: center;
-  margin: 50px auto 0px auto;
+  margin: 50px 20px 50px 20px;
   animation: lazymove 3s infinite;
   animation-direction: alternate-reverse;
   animation-fill-mode: backwards;
