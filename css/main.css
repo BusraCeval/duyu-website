@@ -77,9 +77,10 @@ code {
   border-radius: 0.2rem;
 }
 .h1 {
-  font-family: Amatic SC;
+  font-family: Josefin Sans;
   font-size: 50px;
   color: #b8b8b8;
+  line-height: 80px;
 }
 
 /*giriş*/
@@ -520,6 +521,13 @@ section{
 /*industries*/
 .industries {
   background: rgba(255, 194, 79, 0.5);
+  min-height: 50vh;
+}
+
+.row {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .img {
