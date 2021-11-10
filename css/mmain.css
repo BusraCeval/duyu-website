@@ -65,3 +65,7 @@
   font-weight: bolder;
   text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.623);
 }
+
+.mobile h2 span {
+  font-family: Amatic-SC;
+}
