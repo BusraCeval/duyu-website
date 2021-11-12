@@ -527,9 +527,8 @@ section{
 /*duyu*/
 main {
   background: linear-gradient(-45deg, #2d0091, #2d0091, #2d0091);
-  background-size: 400% 400%;
   animation: gradient 3s ease infinite;
-  height: 50vh;
+  height: 110vh;
 }
 
 @keyframes gradient {
