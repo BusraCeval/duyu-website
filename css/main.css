@@ -89,7 +89,7 @@ code {
   width:100%;
 }
 .card svg {
-  width: 50%;
+  width: 10%;
   justify-content: center;
   align-items: center;
 }
@@ -148,29 +148,6 @@ code {
     rgba(45, 0, 145, 100),
     rgba(0, 0, 0, 0)
   );
-}
-
-#dandelion-group {
-  animation: lazymove4 3s infinite;
-  animation-direction: alternate-reverse;
-  animation-fill-mode: backwards;
-  transform-origin: center bottom;
-}
-
-.dandelion-right {
-  fill: var(--basecolor);
-  transform-origin: center bottom;
-  animation: lazymove2 3s infinite;
-  animation-direction: alternate-reverse;
-  animation-fill-mode: backwards;
-}
-
-.dandelion-left {
-  fill: var(--basecolor);
-  transform-origin: center bottom;
-  animation: lazymove4 3s infinite;
-  animation-direction: alternate-reverse;
-  animation-fill-mode: backwards;
 }
 
 .shadow {
@@ -241,9 +218,8 @@ code {
   }
 }
 
-/*button*/
 
-
+/* BUTTON STYLES */
 .buttonr-container {
   display: flex;
   flex-direction: row;
@@ -252,9 +228,6 @@ code {
   font-family: Josefin Sans;
  
 }
-
-
-/* // BUTTON STYLES */
 
 .buttonr {
   position: relative;
@@ -303,12 +276,12 @@ code {
 	}
 }
 
-
 .button-pulse {
   animation: pulse 2s infinite 3s cubic-bezier(0.25, 0, 0, 1);
   box-shadow: 0 0 0 0 #3a45c7;
   text-decoration: none;
 }
+
 @keyframes pulse {
   to {
     box-shadow: 0 0 0 18px #3a46c769; 
@@ -682,9 +655,9 @@ main {
 /*request a demo*/
 .text-container > span {
   text-transform: uppercase;
-  animation: glow 1.5s ease-in-out infinite;
+  animation: glow 1.25s ease-in-out infinite;
   font-family: Amatic SC;
-  font-size: 150px;
+  font-size: 110px;
 }
 
 @keyframes glow {
@@ -701,17 +674,43 @@ main {
   }
 }
 
-.text-container > span:nth-child(2) {
-  animation-delay: 0.25s;
+.text-container > span:nth-child(1) {
+  animation-delay: 0s;
 }
 
-.text-container > span:nth-child(3) {
+.text-container > span:nth-child(2) {
   animation-delay: 0.5s;
 }
 
+.text-container > span:nth-child(3) {
+  animation-delay: 1s;
+}
+
+#dandelion-group {
+  animation: lazymove4 3s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: backwards;
+  transform-origin: center bottom;
+}
+
+.dandelion-right {
+  fill: var(--basecolor);
+  transform-origin: center bottom;
+  animation: lazymove2 3s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: backwards;
+}
+
+.dandelion-left {
+  fill: var(--basecolor);
+  transform-origin: center bottom;
+  animation: lazymove4 3s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: backwards;
+}
 
 
-/* // BUTTON STYLES */
+/* BUTTON STYLES */
 
 .buttonr {
   position: relative;
