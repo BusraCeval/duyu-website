@@ -11,6 +11,10 @@
   color: #878787;
 }
 
+.footer li{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
 .footer a {
   text-decoration: none;
   color: #2d0091;
