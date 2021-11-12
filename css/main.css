@@ -87,6 +87,7 @@ code {
 /*giriş*/
 #duyu{
   width:100%;
+  min-height: 100vh;
 }
 .card svg {
   width: 10%;
@@ -301,23 +302,6 @@ code {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* <!-- ============================== DUYU SECOND VERSION ============================== --> */
 section{
   position:relative;
@@ -417,7 +401,7 @@ section{
   }
 }
 
-.duyuh2{
+.duyu h2{
   color:white;
   text-align:center;
   align-items:center;
@@ -495,9 +479,9 @@ section{
 /*industries*/
 .industries {
   background: rgba(255, 194, 79, 0.5);
-  min-height: 50vh;
   background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 3px, transparent 5px, transparent 16px);
   background-size: 8px 8px;
+  min-height: 50vh;
 }
 .row {
   align-items: center;
@@ -540,7 +524,7 @@ main {
   background: linear-gradient(-45deg, #2d0091, #2d0091, #2d0091);
   background-size: 400% 400%;
   animation: gradient 3s ease infinite;
-  height: 100vh;
+  height: 50vh;
 }
 
 @keyframes gradient {
