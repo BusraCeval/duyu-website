@@ -38,7 +38,7 @@
 
 /*Giris*/
 .hr {
-  background-color: #fff;
+  background-color: #eee;
   padding: 0;
   border: 0;
   height: 5px;
@@ -50,28 +50,29 @@
   );
 }
 
-.banner-text {
+/* .banner-text {
   width: 100%;
   position: absolute;
-}
-
-.about {
-  min-height: 100vh;
-}
+} */
 
 .banner-text h2 {
   text-align: center;
-  color: #fff;
+  color: #2d0091;
   font-size: 80px;
   font-family: Josefin Sans;
   font-weight: bolder;
+  padding: 50px;
 }
 
-.animation-area {
-  background: linear-gradient(to left, #2d0091, #2e0091ce);
-  width: 100%;
+.about{
   min-height: 100vh;
 }
+/* .animation-area {
+  background: linear-gradient(to left, #2d0091, #2e0091ce);
+  background: #eee;
+  width: 100%;
+  min-height: 100vh;
+} */
 
 .box-area {
   position: absolute;
@@ -89,7 +90,7 @@
   width: 25px;
   height: 25px;
   bottom: -150px;
-  background: #2e009165;
+  background: #2d0091;
   animation: animate var(--animationSpeed) infinite linear;
 }
 @keyframes animate {
@@ -167,7 +168,7 @@
   font-size: 25px;
   line-height: 40px;
   letter-spacing: -0.02em;
-  color: #dce0f7;
+  color: #8d8d8d;
 }
 /**/
 .bg{
