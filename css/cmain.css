@@ -9,6 +9,11 @@
   align-items: center;
   color: #878787;
 }
+
+.footer a {
+  text-decoration: none;
+  color: #2d0091;
+}
 /*footer*/
 
 /*navbar*/
