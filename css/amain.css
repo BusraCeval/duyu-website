@@ -48,6 +48,14 @@
 /* navbar */
 
 
+
+
+
+:root {
+  --animationSpeed: 30s;
+}
+
+
 /*Giris*/
 .hr {
   background-color: #eee;
@@ -62,11 +70,6 @@
   );
 }
 
-/* .banner-text {
-  width: 100%;
-  position: absolute;
-} */
-
 .banner-text h2 {
   text-align: center;
   color: #2d0091;
@@ -79,12 +82,6 @@
 .about{
   min-height: 100vh;
 }
-/* .animation-area {
-  background: linear-gradient(to left, #2d0091, #2e0091ce);
-  background: #eee;
-  width: 100%;
-  min-height: 100vh;
-} */
 
 .box-area {
   position: absolute;
@@ -102,7 +99,7 @@
   width: 25px;
   height: 25px;
   bottom: -150px;
-  background: #2d0091;
+  background: #2e0091d5;
   animation: animate var(--animationSpeed) infinite linear;
 }
 @keyframes animate {
