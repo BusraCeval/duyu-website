@@ -23,26 +23,29 @@
 
 /*navbar*/
 .navbar {
-  font-family: Josefin Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #000000;
-  background-color: #383838c5 ;
+  font-family: Josefin Sans; 
+  color: #fff;
+  background-color: #383838cb ;
 }
 
-.navbar-brand{
-  font-family: 'Montserrat Alternates', sans-serif;
+.navbar-brand {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 0.5rem;
+  font-size: 24px;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover {
+  color: #000;
 }
 
 /* navbar */
-:root {
-  --animationSpeed: 30s;
-}
 
 
 /*Giris*/
