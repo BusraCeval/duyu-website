@@ -34,10 +34,10 @@
   background-color: #383838c5;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: #000000;
+.navbar-brand{
+  font-family: 'Montserrat Alternates', sans-serif;
 }
+
 /* navbar */
 
 /* giriş */

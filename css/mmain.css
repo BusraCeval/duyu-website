@@ -35,6 +35,10 @@
   background-color: #383838c5 ;
 }
 
+.navbar-brand{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
 .nav-link {
   text-decoration: none;
   color: #000000;
