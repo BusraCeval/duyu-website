@@ -50,7 +50,6 @@
   background-image: url(../image/connection.jpg);
   background-position: center;
   background-size: cover;
-  /* background-attachment: fixed; */
   position: relative;
   z-index: 2;
 }
@@ -83,10 +82,16 @@ input[type="submit"] {
   background: #2d0091;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.397);
   border-radius: 15px;
-  width: 100%;
   font-family: Josefin Sans;
-  padding: 5px;
   color: aliceblue;
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 
 input[type="submit"]:hover {
