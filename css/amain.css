@@ -43,13 +43,9 @@
 
 #navbarSupportedContent > ul > li:nth-child(n) > a:hover {
   color: #000;
+  font-weight: bolder;
 }
-
 /* navbar */
-
-
-
-
 
 :root {
   --animationSpeed: 30s;

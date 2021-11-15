@@ -43,8 +43,8 @@
 
 #navbarSupportedContent > ul > li:nth-child(n) > a:hover {
   color: #000;
+  font-weight: bolder;
 }
-
 /* navbar */
 
 .hero {
