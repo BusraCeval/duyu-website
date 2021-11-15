@@ -73,10 +73,10 @@
 .banner-text h2 {
   text-align: center;
   color: #2d0091;
-  font-size: 80px;
+  font-size: 50px;
   font-family: Josefin Sans;
   font-weight: bolder;
-  padding: 50px;
+  padding: 20px;
 }
 
 .about{
@@ -165,18 +165,16 @@
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
   display: flex;
-  align-items: center;
-  letter-spacing: -0.02em;
+  align-items: center; 
   color: #2d0091;
 }
 .description {
   font-family: Josefin Sans;
   font-style: normal;
-  font-size: 25px;
-  line-height: 40px;
-  letter-spacing: -0.02em;
+  font-size: 20px;
+  line-height: 35px;
   color: #8d8d8d;
 }
 /**/
