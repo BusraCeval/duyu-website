@@ -664,7 +664,7 @@ main {
 }
 
 .dandelion-right {
-  fill: var(--basecolor);
+  /* fill: var(--basecolor); */
   transform-origin: center bottom;
   animation: lazymove2 3s infinite;
   animation-direction: alternate-reverse;
@@ -672,7 +672,7 @@ main {
 }
 
 .dandelion-left {
-  fill: var(--basecolor);
+  /* fill: var(--basecolor); */
   transform-origin: center bottom;
   animation: lazymove4 3s infinite;
   animation-direction: alternate-reverse;
