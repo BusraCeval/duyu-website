@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Josefin+Sans&family=Montserrat&family=Montserrat+Alternates&display=swap');
-
+*{
+ box-sizing: border-box;
+}
 .footer {
   font-family: Josefin Sans;
   font-style: normal;
@@ -102,6 +104,7 @@ input[type="submit"] {
   align-items: center;
   padding-top: 2%;
   color: white;
+  margin: 20px;
 }
 
 input[type="submit"]:hover {
