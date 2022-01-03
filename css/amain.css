@@ -222,11 +222,11 @@ body {
   align-items: center;
   transition: 0.4s;
 }
+
 .contact-list__item__wrapper .contact__icon i {
   color: #2D0091;
   transition: 0.4s;
 }
-
 .contact-list__item__wrapper:hover .contact__icon {
   background-color: #2D0091;
 }
@@ -234,6 +234,9 @@ body {
   color: #fff;
 }
 .contact-list__item__wrapper:hover .contact__value {
+  color: #2D0091;
+}
+.contact-list__item__wrapper:hover .contact__value1 {
   color: #2D0091;
 }
 
@@ -255,7 +258,12 @@ body {
   color: #1e2638;
   transition: 0.4s;
 }
-
+.contact__inner .contact__value1 {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #1e2638;
+  transition: 0.4s;
+}
 .map-header__title {
   font-size: 1.8rem;
   text-align: center;
