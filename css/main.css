@@ -78,7 +78,27 @@ font-family: 'Montserrat Alternates', sans-serif; */
 .service-card {
   padding: 15px 10px;
 }
-
 i{
   color: #eee;
+}
+
+/* duyu-content */
+.duyu-content{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+.duyu-content h1 span{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bolder;
+}
+
+.duyu-content h1{
+  color: #2D0091;
+  letter-spacing: 3px;
+}
+
+.duyu-note {
+  color: #2D0091;
+  font-weight: 600;
 }
