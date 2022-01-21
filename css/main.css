@@ -102,3 +102,44 @@ i{
   color: #2D0091;
   font-weight: 600;
 }
+
+#great-at{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+#great-at h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  color: #2D0091;
+}
+#great-at span{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bolder;
+}
+#great-at .card{
+  color: #eee;
+  border: none;
+  font-size: 15px;
+}
+
+#great-at .system{
+  border: none;
+  background-color: #CB9260;
+  border-radius: 10px;
+}
+
+#great-at .app{
+  background-color: #966170;
+  border-radius: 10px;
+}
+
+#great-at .brain{
+  background-color: #623181;
+  border-radius: 10px;
+}
+
+#great-at .hash{
+  font-size: 10px;
+  text-align: start;
+}
