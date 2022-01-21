@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat&family=Montserrat+Alternates&display=swap');
+
+/* font-family: 'Allura', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif; */
+
+/* navbar */
+.navbar-brand {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(224, 34, 34, 0.55);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(143, 19, 106, 0.55);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(36, 216, 60, 0.9);
+}
+/* landing page */
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -6,10 +34,27 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.masthead h1{
+  font-family: 'Allura', cursive;
+  font-size: 80px;
+  color: #2D0091;
+}
+.masthead p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
 .service-card {
-  background: rgba(112, 104, 104, 0.274);
+  background: #6864E6;
   text-align: center;
   padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 #6864E6;
+  transition: 0.3s;
+}
+.service-card:hover{
+  box-shadow: 0 8px 16px 0 #2D0091;
 }
 .service-card i {
   font-size: 34px;
@@ -18,15 +63,22 @@
   max-width: 200px;
   margin: 0 auto;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: normal;
+  color: #eee;
+  letter-spacing: 1px;
 }
 .service-card h5{
   font-size: 20px;
-  font-weight: 600;
+  font-weight: normal;
+  color: #eee;
 }
 .f2f2 {
-  background-color: #333;
+  background-color: #3B00BF;
 }
 .service-card {
   padding: 15px 10px;
+}
+
+i{
+  color: #eee;
 }
