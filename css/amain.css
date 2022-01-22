@@ -2,7 +2,7 @@
 
 /*footer*/
 .footer {
-  font-family: Josefin Sans;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-weight: bold;
@@ -22,31 +22,31 @@
 }
 /*footer*/
 
-/*navbar*/
-.navbar {
-  font-family: Josefin Sans; 
-  color: #fff;
-  background-color: #383838cb ;
-}
-
+/* navbar */
 .navbar-brand {
   font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 900;
-  color: #fff;
-  letter-spacing: 0.5rem;
-  font-size: 24px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
 }
-
-#navbarSupportedContent > ul > li:nth-child(n) > a {
-  color: #fff;
-  font-size: 1.1rem;
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 15px;
 }
-
-#navbarSupportedContent > ul > li:nth-child(n) > a:hover {
-  color: #000;
-  font-weight: bolder;
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(224, 34, 34, 0.55);
 }
-/* navbar */
+.navbar-light .navbar-nav .nav-link {
+  color: #2d0091;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(36, 216, 60, 0.9);
+}
 
 :root {
   --animationSpeed: 30s;
@@ -71,7 +71,7 @@
   text-align: center;
   color: #2d0091;
   font-size: 50px;
-  font-family: Josefin Sans;
+  font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   padding: 20px;
 }
@@ -159,7 +159,7 @@
 
 /**/
 .baslik {
-  font-family: Josefin Sans;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
@@ -168,9 +168,9 @@
   color: #2d0091;
 }
 .description {
-  font-family: Josefin Sans;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 35px;
   color: #8d8d8d;
 }
@@ -180,19 +180,11 @@
   min-height: 100vh;
 }
 
-
-
-
-
-
-
-
-
 body {
   margin: 0;
   font-size: 1.5rem;
   color: #1e2638;
-  font-family: Josefin Sans;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-list {
