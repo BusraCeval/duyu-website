@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Montserrat&family=Montserrat+Alternates&display=swap");
 
-/* font-family: 'Allura', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Montserrat Alternates', sans-serif; */
-
 /* navbar */
 .navbar-brand {
   font-family: "Montserrat Alternates", sans-serif;
@@ -20,7 +16,7 @@ font-family: 'Montserrat Alternates', sans-serif; */
   color: rgba(224, 34, 34, 0.55);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(143, 19, 106, 0.55);
+  color: #2d0091;
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -396,3 +392,24 @@ main
 }
 
 /* ADVANTAGES */
+
+/*footer*/
+.footer {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+  align-items: center;
+  color: #878787;
+}
+
+.footer .duyu{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #2d0091;
+}
