@@ -26,14 +26,6 @@
   color: #fff;
 }
 
-/* #navbar {
-  padding: 0 40px;
-} */
-
-/* #navbar ul li {
-  margin-right: 5px;
-} */
-
 #navbar ul li a {
   color: #fff;
 }
@@ -101,10 +93,6 @@
   border-radius: 5px;
 }
 
-/* .navbar-default {
-  padding: 10px 0;
-} */
-
 .nav .navbar-nav>li>a:hover {
   background-color: #6864e6;
   -webkit-border-radius: 5px;
@@ -112,10 +100,6 @@
   -ms-border-radius: 5px;
   border-radius: 5px;
 }
-
-/* .navbar-brand {
-  padding-left: 60px;
-} */
 
 /* landing page */
 .masthead {
@@ -225,16 +209,19 @@ i {
   border: none;
   background-color: #cb9260;
   border-radius: 10px;
+  box-shadow: 5px 10px 10px 5px rgb(153, 153, 153);
 }
 
 #great-at .app {
   background-color: #966170;
   border-radius: 10px;
+  box-shadow: 5px 10px 10px 5px rgb(153, 153, 153);
 }
 
 #great-at .brain {
   background-color: #623181;
   border-radius: 10px;
+  box-shadow: 5px 10px 10px 5px rgb(153, 153, 153);
 }
 
 #great-at .hash {
