@@ -7,23 +7,116 @@
   font-weight: bold;
   letter-spacing: 5px;
 }
-.nav-link {
+.nav{
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  letter-spacing: 1px;
-}
-.navbar-light .navbar-nav .nav-link {
-  color: rgba(224, 34, 34, 0.55);
-}
-.navbar-light .navbar-nav .nav-link {
   color: #2d0091;
 }
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: rgba(36, 216, 60, 0.9);
+
+.navbar-default {
+  background-color: #2d0091;
+  border-color: #2d0091;
 }
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:visited,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:focus {
+  color: #fff;
+}
+
+/* #navbar {
+  padding: 0 40px;
+} */
+
+/* #navbar ul li {
+  margin-right: 5px;
+} */
+
+#navbar ul li a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a:focus {
+/*   background-color: #47CECF; */
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#navbar ul li a:hover {
+/*   background-color: #47CECF; */
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:visited {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:active {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* .navbar-default {
+  padding: 10px 0;
+} */
+
+.nav .navbar-nav>li>a:hover {
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* .navbar-brand {
+  padding-left: 60px;
+} */
+
 /* landing page */
 .masthead {
   height: 100vh;
@@ -86,6 +179,10 @@ i {
   font-family: "Montserrat", sans-serif;
   color: black;
 }
+#duyu {
+  min-height: 100vh;
+  padding-top: 80px;
+}
 
 .duyu-content h1 span {
   font-family: "Montserrat Alternates", sans-serif;
@@ -105,6 +202,8 @@ i {
 #great-at {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
+  min-height: 100vh;
+  padding-top: 80px;
 }
 
 #great-at h4 {
@@ -405,8 +504,8 @@ main
   color: #878787;
 }
 
-.footer .duyu{
-  font-family: 'Montserrat Alternates', sans-serif;
+.footer .duyu {
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 .footer a {

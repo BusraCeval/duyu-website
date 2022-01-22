@@ -12,50 +12,52 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <script src="https://kit.fontawesome.com//66aa7c98b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/main.css">
     <title>DUYU</title>
 </head>
 
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top p-3">
-        <div class="container">
-            <a class="navbar-brand" href="./index.html">DUYU</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#duyu">Duyu Nedir?</a>
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-default navbar-fixed-top navbar-light">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand text-uppercase mx-5" href="">DUYU</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right mr-2">
+                    <li class="text-uppercase">
+                        <a href="#duyu">Duyu Nedir?</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#great-at">Özellikleri</a>
+                    <li class="text-uppercase">
+                        <a href="#great-at">Özellikleri</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#abilities">Yetenekleri</a>
+                    <li class="text-uppercase">
+                        <a href="#abilities">Yetenekleri</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#industries">Endüstriler</a>
+                    <li class="text-uppercase">
+                        <a href="#industries">Endüstriler</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#advantages">Avantajları</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about-us.html">Hakkımızda</a>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-outline-info">Bize Ulaşın</button>
+                    <li class="text-uppercase">
+                        <a href="#advantages">Avantajları</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+
     <!-- Full Page Image Header with Vertically Centered Content -->
     <header class="masthead">
-        <div class="container pt-5 mt-5 h-100">
+        <div class="container mt-5<%  %>  h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12 text-center">
                     <h1 class="fw-light">Üretim İstihbarat Teknolojisi</h1>
@@ -115,51 +117,57 @@
 
     <!-- Duyu Great At Page Content -->
     <section id="great-at">
-        <div class="py-5 bg-light">
-            <div class="container">
-                <h4 class="text-center"><span>Duyu</span>'nun Öne Çıkan Bazı Özellikleri</h4>
-                <p class="text-center"><span>Duyu</span>, Konvansiyonel Endüstrilerde bulunan makineler için yüksek
-                    teknolojileri kullanır. Karmaşık sistemleri veri analizi algoritmaları, ilişkilendirme yöntemleri ve
-                    endüstriyel yapay zeka uygulamaları ile kendi kendine öğrenen gerçek zamanlı mobil uygulama sunar.
-                    Böylece üretim hattında etkili bir karar verme mekanizması sunar.</p>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div class="card system shadow-sm">
-                            <div class="card-body text-center">
-                                <div class="feature-icon">
-                                    <p class="hash">#ComputerVision #IIoT #ArtificialIntelligence</p>
-                                    <img src="./image/img/nvidia-jetson-agx-module-2c50-d 1.svg" alt="">
+        <div class="great-at">
+            <div class="py-5 bg-light">
+                <div class="container">
+                    <h4 class="text-center"><span>Duyu</span>'nun Öne Çıkan Bazı Özellikleri</h4>
+                    <p class="text-center"><span>Duyu</span>, Konvansiyonel Endüstrilerde bulunan makineler için
+                        yüksek
+                        teknolojileri kullanır. Karmaşık sistemleri veri analizi algoritmaları, ilişkilendirme
+                        yöntemleri ve
+                        endüstriyel yapay zeka uygulamaları ile kendi kendine öğrenen gerçek zamanlı mobil uygulama
+                        sunar.
+                        Böylece üretim hattında etkili bir karar verme mekanizması sunar.</p>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <div class="card system shadow-sm">
+                                <div class="card-body text-center">
+                                    <div class="feature-icon">
+                                        <p class="hash">#ComputerVision #IIoT #ArtificialIntelligence</p>
+                                        <img src="./image/img/nvidia-jetson-agx-module-2c50-d 1.svg" alt="">
+                                    </div>
+                                    <p>Tüm yaştan, tüm makinelere<br>uyarlanabilen<br>Görüntü İşleme ve Yapay Zeka
+                                        altyapısıyla kurulmuş</p>
+                                    <h5><span>DUYU</span> Sistem</h5>
                                 </div>
-                                <p>Tüm yaştan, tüm makinelere<br>uyarlanabilen<br>Görüntü İşleme ve Yapay Zeka
-                                    altyapısıyla kurulmuş</p>
-                                <h5><span>DUYU</span> Sistem</h5>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card app shadow-sm">
-                            <div class="card-body text-center">
-                                <div class="feature-icon">
-                                    <p class="hash">#Mobile #RealTime</p>
-                                    <img src="./image/img/Rectangle.svg" alt="">
+                        <div class="col">
+                            <div class="card app shadow-sm">
+                                <div class="card-body text-center">
+                                    <div class="feature-icon">
+                                        <p class="hash">#Mobile #RealTime</p>
+                                        <img src="./image/img/Rectangle.svg" alt="">
+                                    </div>
+                                    <p>Dünyanın neresinde olursanız olun<br>Fabrikanız cebinizde olsun diye
+                                    </p>
+                                    <h5><span>DUYU</span> App</h5>
                                 </div>
-                                <p>Dünyanın neresinde olursanız olun<br>Fabrikanız cebinizde olsun diye
-                                </p>
-                                <h5><span>DUYU</span> App</h5>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card brain shadow-sm">
-                            <div class="card-body text-center">
-                                <div class="feature-icon">
-                                    <p class="hash">#DeepLearning #SelfLearning</p>
-                                    <img src="./image/img/deeplearnıng_background-removebg-preview 1.svg" alt="">
+                        <div class="col">
+                            <div class="card brain shadow-sm">
+                                <div class="card-body text-center">
+                                    <div class="feature-icon">
+                                        <p class="hash">#DeepLearning #SelfLearning</p>
+                                        <img src="./image/img/deeplearnıng_background-removebg-preview 1.svg" alt="">
+                                    </div>
+                                    <p>Olan biteni gözlemlemekle kalmasın<br>olan biteni daha önemlisi şirketinizi
+                                        öğrensin
+                                        diye<br> Derin Öğrenme altyapımız</p>
+                                    <h5><span>DUYU</span> Brain</h5>
+                                    </p>
                                 </div>
-                                <p>Olan biteni gözlemlemekle kalmasın<br>olan biteni daha önemlisi şirketinizi öğrensin
-                                    diye<br> Derin Öğrenme altyapımız</p>
-                                <h5><span>DUYU</span> Brain</h5>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -203,7 +211,8 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="quote-wrapper">
-                                        <h4> <span>1.</span> Gerçek Zamanlı Üretim Olaylarınızın Tespiti/Bildirimi</h4>
+                                        <h4> <span>1.</span> Gerçek Zamanlı Üretim Olaylarınızın Tespiti/Bildirimi
+                                        </h4>
                                         <p>Makine durdu. <br> Makine durduruldu. <br>Duruşa müdahale gerçekleşmedi.
                                             Duruşa müdahale edildi.<br>
                                             Çağ değişim gerçekleşti.<br>
@@ -215,12 +224,15 @@
                                 </div>
                                 <div class="carousel-item">
                                     <div class="quote-wrapper">
-                                        <h4><span>2.</span> Gerçek Zamanlı Gözlem ve Ölçümlerden Anlık Hesaplamalar</h4>
-                                        <p>Makine toplam duruş süresi i.e vardiya, gün <br>Müdahale kadar geçen toplam
+                                        <h4><span>2.</span> Gerçek Zamanlı Gözlem ve Ölçümlerden Anlık Hesaplamalar
+                                        </h4>
+                                        <p>Makine toplam duruş süresi i.e vardiya, gün <br>Müdahale kadar geçen
+                                            toplam
                                             duruş süresi <br>
                                             Ortalama müdahale edilme süresi <br> Ortalama bakım süresi <br> Sipariş
                                             bitimine kalan tahmini süre <br>
-                                            Kapasite kullanım oranı <br> Desen/ürün değişm ortalaması <br> Makine duruş
+                                            Kapasite kullanım oranı <br> Desen/ürün değişm ortalaması <br> Makine
+                                            duruş
                                             sebeplerinin dağılımı <br>
                                             Makine çalıştı <br> Anlık RPM (atkı) değeri
                                         </p>
@@ -242,7 +254,8 @@
                                         <h4><span>4.</span> Akıllı Raporlama</h4>
                                         <p>Vardiya raporu otomasyonu <br>
                                             %100 özelleştirilebilir ve esnek rapor tanımlama <br>
-                                            Entegrasyonu sağlanan, diğer birimlerden gelen verilerin yapay zeka modeline
+                                            Entegrasyonu sağlanan, diğer birimlerden gelen verilerin yapay zeka
+                                            modeline
                                             eklenerek akıllı analiz ve çıkarımlar sağlanması
                                         </p>
                                     </div>
@@ -289,7 +302,7 @@
     </section>
 
     <!-- Duyu Great ADVANTAGES Content -->
-    <section id="advantages">
+    <!-- <section id="advantages">
         <div class="container my-5">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
@@ -399,7 +412,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer class="container footer">
