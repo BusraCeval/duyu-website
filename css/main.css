@@ -480,25 +480,16 @@ main
 /* ADVANTAGES */
 
 /*footer*/
-.footer {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 30px;
-  align-items: center;
-  color: #878787;
-}
-
-.footer .duyu {
-  font-family: "Montserrat Alternates", sans-serif;
-}
-
 .footer a {
   text-decoration: none;
   color: #2d0091;
-} 
+  font-weight: bolder;
+}
+
+#footer{
+  font-family: "Montserrat", sans-serif;
+  color: #2d0091;
+}
 
 #advantages h1 {
   font-family: "Montserrat", sans-serif;
