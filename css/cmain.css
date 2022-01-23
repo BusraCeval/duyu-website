@@ -20,34 +20,108 @@
 }
 /*footer*/
 
-/*navbar*/
-.navbar {
-  font-family: Josefin Sans; 
-  color: #fff;
-  background-color: #383838cb ;
-}
-
+/* navbar */
 .navbar-brand {
   font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 900;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.nav {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #2d0091;
+}
+
+.navbar-default {
+  background-color: #2d0091;
+  border-color: #2d0091;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:visited,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:focus {
   color: #fff;
-  letter-spacing: 0.5rem;
-  font-size: 24px;
 }
 
-#navbarSupportedContent > ul > li:nth-child(n) > a {
+#navbar ul li a {
   color: #fff;
-  font-size: 1.1rem;
 }
 
-#navbarSupportedContent > ul > li:nth-child(n) > a:hover {
-  color: #000;
-  font-weight: bolder;
+.navbar-default .navbar-nav > .active > a:focus {
+  /*   background-color: #47CECF; */
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
 }
-/* navbar */
 
+#navbar ul li a:hover {
+  /*   background-color: #47CECF; */
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:visited {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:active {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.nav .navbar-nav > li > a:hover {
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
 .hero {
-  background-image: url(../image/connection.jpg);
+  background-image: url(../image/endustri40.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
