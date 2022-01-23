@@ -7,7 +7,7 @@
   font-weight: bold;
   letter-spacing: 5px;
 }
-.nav{
+.nav {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #2d0091;
@@ -30,8 +30,8 @@
   color: #fff;
 }
 
-.navbar-default .navbar-nav>.active>a:focus {
-/*   background-color: #47CECF; */
+.navbar-default .navbar-nav > .active > a:focus {
+  /*   background-color: #47CECF; */
   background-color: #6864e6;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -40,7 +40,7 @@
 }
 
 #navbar ul li a:hover {
-/*   background-color: #47CECF; */
+  /*   background-color: #47CECF; */
   background-color: #6864e6;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -93,7 +93,7 @@
   border-radius: 5px;
 }
 
-.nav .navbar-nav>li>a:hover {
+.nav .navbar-nav > li > a:hover {
   background-color: #6864e6;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -498,4 +498,34 @@ main
 .footer a {
   text-decoration: none;
   color: #2d0091;
+} 
+
+#advantages h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #2d0091;
+  font-weight: bolder;
+}
+
+#advantages span {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #2d0091;
+}
+#advantages p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+}
+#advantages h5 {
+  color: #2d0091;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+#advantages i {
+  color: #ffc24f;
+}
+
+#advantages h4 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 35px;
+  font-weight: lighter;
 }
