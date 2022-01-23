@@ -23,30 +23,107 @@
 /*footer*/
 
 /* navbar */
+/* navbar */
 .navbar-brand {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 5px;
 }
-.nav-link {
+.nav {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  letter-spacing: 1px;
-  font-size: 15px;
-}
-.navbar-light .navbar-nav .nav-link {
-  color: rgba(224, 34, 34, 0.55);
-}
-.navbar-light .navbar-nav .nav-link {
   color: #2d0091;
 }
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: rgba(36, 216, 60, 0.9);
+
+.navbar-default {
+  background-color: #2d0091;
+  border-color: #2d0091;
 }
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:visited,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:focus {
+  color: #fff;
+}
+
+#navbar ul li a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a:focus {
+  /*   background-color: #47CECF; */
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#navbar ul li a:hover {
+  /*   background-color: #47CECF; */
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:visited {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:active {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: #6864e6;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.nav .navbar-nav > li > a:hover {
+  background-color: #6864e6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
 
 :root {
   --animationSpeed: 30s;
@@ -236,7 +313,7 @@ body {
   padding-bottom: 5px;
 }
 .contact__inner .contact__label {
-  font-size: 0.7rem;
+  font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
   color: rgba(30, 38, 56, 0.65);
@@ -245,13 +322,13 @@ body {
   margin-bottom: 0.25rem;
 }
 .contact__inner .contact__value {
-  font-size: 0.8rem;
+  font-size: 12px;
   font-weight: 700;
   color: #1e2638;
   transition: 0.4s;
 }
 .contact__inner .contact__value1 {
-  font-size: 0.6rem;
+  font-size: 15px;
   font-weight: 700;
   color: #1e2638;
   transition: 0.4s;
